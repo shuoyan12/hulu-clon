@@ -13,7 +13,7 @@ function Header() {
   return (
     <header className="flex flex-col sm:flex-row m-5 justify-between">
       <div className="flex flex-grow justify-evenly max-w-2xl">
-        <HeaderItems title="HOME" Icon={HomeIcon}></HeaderItems>
+        <HeaderItems title="HOME" Icon={HomeIcon} link="/"></HeaderItems>
         <HeaderItems title="TRENDING" Icon={LightningBoltIcon}></HeaderItems>
         <HeaderItems title="VERIFIED" Icon={BadgeCheckIcon}></HeaderItems>
         <HeaderItems title="COLLECTIONS" Icon={CollectionIcon}></HeaderItems>
